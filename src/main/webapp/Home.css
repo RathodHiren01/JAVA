@@ -1,0 +1,77 @@
+body {
+            font-family: 'Roboto', sans-serif;
+            background-color: white;
+            color: gray;
+        }
+        h1, h2 {
+            font-family: 'Playfair Display', serif;
+        }
+        header {
+            border-bottom: 1px solid #ccc;
+            padding: 20px 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: gray;
+        }
+        nav a:hover {
+            color: darkgray;
+        }
+        .icons a {
+            margin: 0 5px;
+            color: gray;
+        }
+        .icons a:hover {
+            color: darkgray;
+        }
+        main {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        section {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 40px;
+        }
+        .flex {
+            display: flex;
+            flex-direction: column;
+        }
+        @media (min-width: 768px) {
+            .flex {
+                flex-direction: row;
+            }
+            .flex > div {
+                flex: 1;
+                padding: 10px;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .mb-2 {
+            margin-bottom: 20px;
+        }
+        .mb-4 {
+            margin-bottom: 40px;
+        }
+        .py-12 {
+            padding: 60px 0;
+        }
+        .font-bold {
+            font-weight: bold;
+        }
